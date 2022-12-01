@@ -4,6 +4,7 @@ import config
 import telebot
 
 from telebot import types
+from guides import classes
 
 bot = telebot.TeleBot(config.TOKEN)
 
@@ -44,6 +45,9 @@ prot_paly_btn = types.KeyboardButton('🛡Захист')
 retr_paly_btn = types.KeyboardButton('🔥Відплата')
 
 class_sham_btn = types.KeyboardButton('⚡️Шаман')
+elem_sham_btn = types.KeyboardButton('⚡️Стихії')
+enh_sham_btn = types.KeyboardButton('🛡Вдосконалення')
+heal_sham_btn = types.KeyboardButton('🍃Зцілення')
 
 class_mage_btn = types.KeyboardButton('🧙‍♀Маг')
 arcn_mage_btn = types.KeyboardButton('💫Таємная магія')
@@ -56,6 +60,9 @@ demo_wlock_btn = types.KeyboardButton('😈Демонолог')
 destr_wlock_btn = types.KeyboardButton('🔥Руйнування')
 
 class_rogue_btn = types.KeyboardButton('🔪Розбійник')
+muti_rogue_btn = types.KeyboardButton('⚔Ліквідація')
+combat_rogue_btn = types.KeyboardButton('🔪Бій')
+assas_rogue_btn = types.KeyboardButton('🥷🏻Скритність')
 
 class_hunt_btn = types.KeyboardButton('🏹Мисливець')
 beast_hunt_btn = types.KeyboardButton('🐺Повелитель звірів')
@@ -88,7 +95,7 @@ markup_os.add(main_menu_return_btn)
 markup_eoe.add(main_menu_return_btn)
 markup_voa.add(main_menu_return_btn)
 
-markup_sham.add(main_menu_return_btn)
+markup_sham.add(elem_sham_btn, enh_sham_btn, heal_sham_btn, main_menu_return_btn)
 markup_dk.add(blood_dk_btn, frost_dk_btn, unh_dk_btn, main_menu_return_btn)
 markup_war.add(arms_war_btn, fury_war_btn, prot_war_btn, main_menu_return_btn)
 markup_priest.add(disc_priest_btn, holy_priest_btn, shdw_priest_btn, main_menu_return_btn)
@@ -97,7 +104,7 @@ markup_mage.add(arcn_mage_btn, fire_mage_btn, frst_mage_btn, main_menu_return_bt
 markup_wlock.add(afl_wlock_btn, demo_wlock_btn, destr_wlock_btn, main_menu_return_btn)
 markup_hunt.add(beast_hunt_btn, mm_hunt_btn, surv_hunt_btn, main_menu_return_btn)
 markup_druid.add(boomk_druid_btn, cat_druid_btn, bear_druid_btn, restor_druid_btn, main_menu_return_btn)
-markup_rogue.add(main_menu_return_btn)
+markup_rogue.add(muti_rogue_btn, combat_rogue_btn, assas_rogue_btn, main_menu_return_btn)
 
 
 @bot.message_handler(commands=["start"])
@@ -227,6 +234,8 @@ def chose_guide(message):
                            '<b>Я вбивав людей і за менше...</b>',
                            parse_mode='html',
                            reply_markup=markup_rogue)
+        elif message.text == '⚔Ліквідація':
+            bot.send_message(message.chat.id, classes.muti_rogue)
 
 
 if __name__ == '__main__':

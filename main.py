@@ -95,7 +95,7 @@ markup_raid_guide.add(main_menu_return_btn, raid_btn1, raid_btn2, raid_btn3, rai
 markup_class_guide.add(main_menu_return_btn, class_dk_btn, class_priest_btn, class_druid_btn, class_hunt_btn,
                        class_rogue_btn, class_wlock_btn, class_mage_btn, class_paly_btn, class_war_btn, class_sham_btn)
 
-markup_naxx.add(main_menu_return_btn, ptchwrk_btn, grbbls_btn, glth_btn)
+markup_naxx.add(main_menu_return_btn, ptchwrk_btn, grbbls_btn, glth_btn, thdds_btn)
 markup_os.add(main_menu_return_btn)
 markup_eoe.add(main_menu_return_btn)
 markup_voa.add(main_menu_return_btn)

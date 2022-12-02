@@ -21,6 +21,8 @@ markup_os = types.ReplyKeyboardMarkup(resize_keyboard=True)
 markup_eoe = types.ReplyKeyboardMarkup(resize_keyboard=True)
 raid_btn1 = types.KeyboardButton('☠Наксрамас')
 ptchwrk_btn = types.KeyboardButton('💀Лоскутик')
+grbbls_btn = types.KeyboardButton('💉Гроббулус')
+glth_btn = types.KeyboardButton('🐶Глут')
 raid_btn2 = types.KeyboardButton('🐲️ Обсидіанове святилище')
 raid_btn3 = types.KeyboardButton('👾 Око вічності')
 raid_btn4 = types.KeyboardButton('🌚 Склеп Архавона')
@@ -239,6 +241,10 @@ def chose_guide(message):
             bot.send_message(message.chat.id, classes.muti_rogue)
         elif message.text == '💀Лоскутик':
             bot.send_message(message.chat.id, raids.patchwerk)
+        elif message.text == '💉Гроббулус':
+            bot.send_message(message.chat.id, raids.grobbulus)
+        elif message.text == '🐶Глут':
+            bot.send_message(message.chat.id, raids.gluth)
 
 
 if __name__ == '__main__':

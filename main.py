@@ -23,6 +23,8 @@ raid_btn1 = types.KeyboardButton('☠Наксрамас')
 ptchwrk_btn = types.KeyboardButton('💀Лоскутик')
 grbbls_btn = types.KeyboardButton('💉Гроббулус')
 glth_btn = types.KeyboardButton('🐶Глут')
+thdds_btn = types.KeyboardButton('🧟‍♂Таддіус')
+
 raid_btn2 = types.KeyboardButton('🐲️ Обсидіанове святилище')
 raid_btn3 = types.KeyboardButton('👾 Око вічності')
 raid_btn4 = types.KeyboardButton('🌚 Склеп Архавона')
@@ -93,7 +95,7 @@ markup_raid_guide.add(main_menu_return_btn, raid_btn1, raid_btn2, raid_btn3, rai
 markup_class_guide.add(main_menu_return_btn, class_dk_btn, class_priest_btn, class_druid_btn, class_hunt_btn,
                        class_rogue_btn, class_wlock_btn, class_mage_btn, class_paly_btn, class_war_btn, class_sham_btn)
 
-markup_naxx.add(main_menu_return_btn, ptchwrk_btn)
+markup_naxx.add(main_menu_return_btn, ptchwrk_btn, grbbls_btn, glth_btn)
 markup_os.add(main_menu_return_btn)
 markup_eoe.add(main_menu_return_btn)
 markup_voa.add(main_menu_return_btn)
@@ -245,6 +247,8 @@ def chose_guide(message):
             bot.send_message(message.chat.id, raids.grobbulus)
         elif message.text == '🐶Глут':
             bot.send_message(message.chat.id, raids.gluth)
+        elif message.text == '🧟‍♂Таддіус':
+            bot.send_message(message.chat.id, raids.thaddius)
 
 
 if __name__ == '__main__':

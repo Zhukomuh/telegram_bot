@@ -5,5 +5,6 @@ raids = {'💀Лоскутик': 'https://telegra.ph/Kvartal-Merzotnost%D1%96-Lo
          '🧙‍♀Нот Чумний': 'https://telegra.ph/CHumnij-Kvartal-Not-CHumnij-12-02',
          '🤢Хейган Нечестивий': 'https://telegra.ph/CHumnij-Kvartal-Hejgan-Nechestivij-12-02',
          '🍄Мерзот': 'https://telegra.ph/CHumnij-Kvartal-Merzot-12-02',
-         '🪲Ануб\'Рекан': 'https://telegra.ph/Pavuchij-Kvartal-AnubRekan-12-02'
+         '🪲Ануб\'Рекан': 'https://telegra.ph/Pavuchij-Kvartal-AnubRekan-12-02',
+         '🦹‍♀️Фарліна':'https://telegra.ph/Pavuchij-Kvartal-Velika-vdova-Farl%D1%96na-12-02'
          }

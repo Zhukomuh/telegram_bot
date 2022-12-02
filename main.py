@@ -26,6 +26,8 @@ glth_btn = types.KeyboardButton('🐶Глут')
 thdds_btn = types.KeyboardButton('🧟‍♂Таддіус')
 noth_btn = types.KeyboardButton('🧙‍♀Нот Чумний')
 heigan_btn = types.KeyboardButton('🤢Хейган Нечестивий')
+loatheb_btn = types.KeyboardButton('🍄Мерзот')
+anub_btn = types.KeyboardButton('🪲Ануб\'Рекан')
 
 raid_btn2 = types.KeyboardButton('🐲️ Обсидіанове святилище')
 raid_btn3 = types.KeyboardButton('👾 Око вічності')

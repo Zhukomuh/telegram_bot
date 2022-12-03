@@ -15,7 +15,7 @@ raids = {'💀Лоскутик': 'https://telegra.ph/Kvartal-Merzotnost%D1%96-Lo
          '💀Кел\'Тузад':'https://telegra.ph/L%D1%96gvo-Krizhanogo-Zm%D1%96ya-KelTuzad-12-03',# доробити
          '👾 Око вічності':'https://telegra.ph/Oko-V%D1%96chnost%D1%96-Mal%D1%96gos-12-03',# доробити
          '🐲️ Обсидіанове святилище':'https://telegra.ph/Obsid%D1%96anove-svyatilishche-Sartar%D1%96on-12-03',# доробити https://www.noob-club.ru/index.php?page=29
-
+         # https://www.noob-club.ru/index.php?page=83 Склеп Аркавона
 
 
          }

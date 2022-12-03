@@ -6,7 +6,12 @@ raids = {'💀Лоскутик': 'https://telegra.ph/Kvartal-Merzotnost%D1%96-Lo
          '🤢Хейган Нечестивий': 'https://telegra.ph/CHumnij-Kvartal-Hejgan-Nechestivij-12-02',
          '🍄Мерзот': 'https://telegra.ph/CHumnij-Kvartal-Merzot-12-02',
          '🪲Ануб\'Рекан': 'https://telegra.ph/Pavuchij-Kvartal-AnubRekan-12-02',
-         '🦹‍♀️Фарліна':'https://telegra.ph/Pavuchij-Kvartal-Velika-vdova-Farl%D1%96na-12-02',
-         '🕷Мексна':'https://telegra.ph/Pavuchij-Kvartal-Meksna-12-03', #доробити
-         '👨🏼Інструктор Разувіус':'https://telegra.ph/V%D1%96jskovij-Kvartal-%D0%86nstruktor-Razuv%D1%96us-12-03', #доробити
+         '🦹‍♀️Фарліна': 'https://telegra.ph/Pavuchij-Kvartal-Velika-vdova-Farl%D1%96na-12-02',
+         '🕷Мексна': 'https://telegra.ph/Pavuchij-Kvartal-Meksna-12-03',  # доробити
+         '👨🏼Інструктор Разувіус': 'https://telegra.ph/V%D1%96jskovij-Kvartal-%D0%86nstruktor-Razuv%D1%96us-12-03',# доробити
+         '🧙🏻‍♂️Готик Жнець': 'https://telegra.ph/V%D1%96jskovij-Kvartal-Gotik-ZHnec-12-03',  # доробити
+         '🐴Чотири Вершники':'https://telegra.ph/V%D1%96jskovij-Kvartal-CHotiri-Vershniki-12-03', # доробити
+         '🐲Сапфірон':'https://telegra.ph/L%D1%96gvo-Krizhanogo-Zm%D1%96ya-Sapf%D1%96ron-12-03',# доробити
+         '💀Кел\'Тузад':'https://telegra.ph/L%D1%96gvo-Krizhanogo-Zm%D1%96ya-KelTuzad-12-03',# доробити
+
          }

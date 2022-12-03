@@ -31,6 +31,10 @@ anub_btn = types.KeyboardButton('🪲Ануб\'Рекан')
 faerlin_btn = types.KeyboardButton('🦹‍♀️Фарліна')
 maexxna_btn = types.KeyboardButton('🕷Мексна')
 razuvius_btn = types.KeyboardButton('👨🏼Інструктор Разувіус')
+gothik_btn = types.KeyboardButton('🧙🏻‍♂️Готик Жнець')
+four_hrsmn_btn = types.KeyboardButton('🐴Чотири Вершники')
+saphiron_btn = types.KeyboardButton('🐲Сапфірон')
+kelthuzad_btn = types.KeyboardButton('💀Кел\'Тузад')
 
 raid_btn2 = types.KeyboardButton('🐲️ Обсидіанове святилище')
 raid_btn3 = types.KeyboardButton('👾 Око вічності')
@@ -103,7 +107,8 @@ markup_class_guide.add(main_menu_return_btn, class_dk_btn, class_priest_btn, cla
                        class_rogue_btn, class_wlock_btn, class_mage_btn, class_paly_btn, class_war_btn, class_sham_btn)
 
 markup_naxx.add(main_menu_return_btn, ptchwrk_btn, grbbls_btn, glth_btn, thdds_btn, noth_btn, heigan_btn, loatheb_btn,
-                anub_btn, faerlin_btn, maexxna_btn, razuvius_btn)
+                anub_btn, faerlin_btn, maexxna_btn, razuvius_btn, gothik_btn, four_hrsmn_btn, saphiron_btn,
+                kelthuzad_btn)
 markup_os.add(main_menu_return_btn)
 markup_eoe.add(main_menu_return_btn)
 markup_voa.add(main_menu_return_btn)
